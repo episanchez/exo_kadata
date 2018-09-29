@@ -1,0 +1,25 @@
+{
+  "name": "exo_kadata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "beefy app.js:bundle.js --live",
+    "bundle": "browserify app.js -o bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/episanchez/exo_kadata.git"
+  },
+  "author": "Charlie QUILLARD",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/episanchez/exo_kadata/issues"
+  },
+  "homepage": "https://github.com/episanchez/exo_kadata#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
+  }
+}
